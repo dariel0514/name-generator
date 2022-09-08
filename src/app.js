@@ -11,8 +11,8 @@ window.onload = function() {
   let noun = ["jogger", "racoon"];
 
   for (let i = 0; i < pronoun.length; i++) {
-    for (let a = 0; a < pronoun.length; a++) {
-      for (let b = 0; b < pronoun.length; b++) {
+    for (let a = 0; a < adj.length; a++) {
+      for (let b = 0; b < noun.length; b++) {
         console.log(`${pronoun[i]}${adj[a]}${noun[b]}.com`);
       }
     }
